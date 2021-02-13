@@ -19,6 +19,7 @@ public class Foo {
         System.out.println("qux called");
     }
 
+    //comment/remove any of the following annotations and the application will run
     @TimedMillis
     @TimedSeconds
     public void quux(){
